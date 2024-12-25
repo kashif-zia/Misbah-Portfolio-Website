@@ -64,11 +64,10 @@ export default class Testimonial extends Component {
                       />
                     </div> */}
                     <div className="text">
-                      Great to work with, dedicated on delivering a quality job
-                      for a good price. Will work again with freelancer.
+                    Misbah worked with me on project that involved a high degree of engagement and the production of high quality web development work in a high pressure commercial environment. She applied herself very well to this work and delivered to a high standard. I would have no problem recommending Misbah for Word Press web development work. 
                     </div>
                     <div className="testi-des">
-                      <h5>Jag Basrai</h5>
+                      <h5>Aonghus O.</h5>
                       <span>CEO &amp; Founder</span>
                     </div>
                   </div>
@@ -80,28 +79,11 @@ export default class Testimonial extends Component {
                       />
                     </div> */}
                     <div className="text">
-                      Worked with Hamza, his work is top-notch and he's
-                      committed to getting things done. A pleasure to work with
-                      and will collaborate again.
+                    If you're looking to grow your personal brand by having an awesome web presence, then Misbah K is the person for this job. I hired her to build my website from the ground level and she did such an amazing job. Also she did it under budget and quicker than anticipated. If you're looking for some awesome website developer, do yourself a favor, and go get contract with Misbah K.
                     </div>
                     <div className="testi-des">
-                      <h5>Ranja Maria Vardali</h5>
-                      <span>CEO &amp; Founder</span>
-                    </div>
-                  </div>
-<div className="testimonial-item wow fadeInUp delay-0-4s">
-                    {/* <div className="author">
-                      <img
-                        src="assets/images/testimonials/author2.png"
-                        alt="Author"
-                      />
-                    </div> */}
-                    <div className="text">
-                      Over a months time, Mr. Misbah Kashif and I had worked on a project of mine. He was very professional and polite. And the job results were far better then what i was requesting or expecting. I'm really looking forward to work with Mr. Misbah Kashif again soon.
-                    </div>
-                    <div className="testi-des">
-                      <h5>Eric Potocki</h5>
-                      <span>CEO &amp; Founder</span>
+                      <h5>Hanlin W</h5>
+                      <span>Founder @ Rays Technology,<br/> CTO @Creatella</span>
                     </div>
                   </div>
                 </Slider>

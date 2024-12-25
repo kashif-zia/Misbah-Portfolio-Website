@@ -27,18 +27,22 @@ const Footer1 = () => {
 			<div className='footer-top-wrap bgc-black pt-100 pb-75'>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-lg-2 col-md-12'>
+						<div className='col-lg-3 col-md-12'>
 							<div className='footer-widget widget_logo wow fadeInUp delay-0-2s'>
 								<div className='footer-logo'>
 									<Link legacyBehavior href='/'>
 										<a>
-											<img src='assets/images/logos/logo.png' alt='Logo' />
+											{/* <img src='assets/images/logos/logo.png' alt='Logo' /> */}
+											<div className="footer-logo-text">
+                    <span className="logo-name">Misbah Kashif</span>
+                    <span className="logo-title">Full Stack Developer</span>
+                    </div>
 										</a>
 									</Link>
 								</div>
 							</div>
 						</div>
-						<div className='col-lg-7 col-md-7'>
+						<div className='col-lg-6 col-md-6'>
 							<div className='footer-widget widget_nav_menu wow fadeInUp delay-0-4s'>
 								<h6 className='footer-title'>Quick Link</h6>
 								<ul>

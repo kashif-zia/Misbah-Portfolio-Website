@@ -59,14 +59,14 @@ body {
   font-family: var(--font-inter);
   --base-color: rgba(255, 255, 255, 0.65);
   --heading-color: #ffffff;
-  --primary-color: #c9f31d;
+  --primary-color: #fd5126;
   --lighter-color: #1f1f1f;
   --black-color: #070707;
   --border-color: rgba(255, 255, 255, 0.1);
 }
 
 a {
-  color: var(--base-color);
+  color: var(--heading-color);
   cursor: pointer;
   outline: none;
   -webkit-transition: 0.5s;
@@ -470,7 +470,7 @@ a.theme-btn {
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  color: var(--black-color);
+  color: var(--heading-color);
   border-radius: 15px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -625,7 +625,7 @@ a.theme-btn.style-three {
   line-height: 1;
   font-size: 16px;
   margin-right: 20px;
-  color: var(--lighter-color);
+  color: var(--heading-color);
   width: 30px;
   height: 30px;
   background: var(--primary-color);
@@ -844,7 +844,7 @@ a.theme-btn.style-three {
   width: 40px;
   height: 40px;
   z-index: 99;
-  color: black;
+  color: white;
   display: none;
   font-size: 14px;
   cursor: pointer;
@@ -4890,6 +4890,7 @@ h6,
 }
 .hero-counter-wrap .counter-title {
   display: block;
+  color: var(--heading-color);
 }
 
 /* Hero Area Two */
@@ -5101,7 +5102,7 @@ h6,
 }
 .info-box-item > i {
   margin-right: 15px;
-  color: var(--black-color);
+  color: var(--heading-color);
   width: 40px;
   height: 40px;
   background: var(--primary-color);
@@ -5883,7 +5884,7 @@ h6,
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  color: rgba(255, 255, 255, 0.35);
+  color: white;
 }
 .resume-item .content .years {
   line-height: 1;
@@ -6092,7 +6093,23 @@ h6,
     transform: rotate(180deg);
   }
 }
-
+.main-logo-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-name{
+  font-size: 30px;
+}
+.logo-title{
+  font-size: 18px;
+  color: var(--primary-color);
+}
+.footer-logo-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 /*******************************************************/
 /******************** ## Contact Area *****************/
 /*******************************************************/
@@ -6105,7 +6122,7 @@ h6,
   margin-bottom: 0;
   position: absolute;
   margin-top: -45px;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.754);
 }
 .form-style-one .form-group .nice-select,
 .form-style-one .form-group .form-control {
@@ -6936,6 +6953,7 @@ h6,
 }
 .testimonial-item .text {
   margin-bottom: 30px;
+  color: var(--heading-color);
 }
 .testimonial-item .testi-des h5 {
   margin-bottom: 0;
@@ -8093,7 +8111,7 @@ blockquote .blockquote-footer:before {
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
-  color: black;
+  color: white;
   content: "\f105";
   font-weight: 400;
   -webkit-transition: 0.5s;
@@ -8482,7 +8500,7 @@ blockquote .blockquote-footer:before {
 .widget_contact_info ul li i {
   font-size: 16px;
   margin-top: 8px;
-  color: var(--primary-color);
+  color: var(--heading-color);
   margin-right: 20px;
 }
 .widget_contact_info ul li a:hover {
@@ -8500,7 +8518,7 @@ blockquote .blockquote-footer:before {
   color: var(--primary-color);
 }
 .footer-bottom .scroll-top {
-  color: var(--lighter-color);
+  color: var(--heading-color);
   font-size: 22px;
   position: absolute;
   top: -30px;

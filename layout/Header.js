@@ -33,18 +33,22 @@ const Header1 = ({ onePageMenu }) => {
     <header className="main-header menu-absolute">
       {/*Header-Upper*/}
       <div className="header-upper">
-        <div className="container container-1620 clearfix">
+        <div className="container clearfix">
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img
+                    {/* <img
                       src="assets/images/logos/logo.png"
                       alt="Logo"
                       title="Logo"
                       width={"300px"}
-                    />
+                    /> */}
+                    <div className="main-logo-text">
+                    <span className="logo-name">Misbah Kashif</span>
+                    <span className="logo-title">Full Stack Developer</span>
+                    </div>
                   </a>
                 </Link>
               </div>

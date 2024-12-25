@@ -3,11 +3,11 @@ export const noxfolioSlider = {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 2500,
     arrows: false,
     speed: 1000,
     focusOnSelect: false,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
       {

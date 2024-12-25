@@ -21,24 +21,23 @@ const Projects = () => {
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/Teacher Matching.png"
+                src="assets/images/projects/theAutofy.png"
                 alt="Project"
               />
             </div>
           </div>
-          <div className="col-xl-5 col-lg-6">
+          <div className="col-xl-6 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Cloud Based App</span>
+              <span className="sub-title">WordPress</span>
               <h2>
                 <a
                   target="_blank"
-                  href="https://nihongotalkers.com/"
+                  href="https://theautofy.com/"
                 >
-                  Teacher Matching App
+                 THE AUTOFY
                 </a>
               </h2>
               <p>
-                {" "}
                 A web app to connect Japanese language teachers with global
                 students, enabling profile reviews and direct email
                 communication. Students can save up to five favorite teachers'
@@ -57,15 +56,15 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/four-season.png" alt="Project" />
+              <img src="assets/images/projects/butyko-clinic.png" alt="Project" />
             </div>
           </div>
-          <div className="col-xl-5 col-lg-6 ms-auto">
+          <div className="col-xl-6 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Web App</span>
               <h2>
                 <a target="_blank" href="https://fourseasonspk.com/">
-                  Four Season Restaurant
+                Butyko Clinic
                 </a>
               </h2>
               <p>
@@ -86,15 +85,15 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/idenbridjp.png" alt="Project" />
+              <img src="assets/images/projects/easyUkMortgage.png" alt="Project" />
             </div>
           </div>
-          <div className="col-xl-5 col-lg-6">
+          <div className="col-xl-6 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Web App</span>
               <h2>
                 <a target="_blank" href="https://idenbrid.jp/">
-                  IDENBRID INC.
+                Easy Uk Mortgage
                 </a>
               </h2>
               <p>
@@ -117,12 +116,12 @@ const Projects = () => {
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/DenturesBank.png"
+                src="assets/images/projects/canaan-dance.png"
                 alt="Project"
               />
             </div>
           </div>
-          <div className="col-xl-5 col-lg-6 ms-auto">
+          <div className="col-xl-6 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Cloud Based App</span>
               <h2>
@@ -130,7 +129,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://www.ireba-bank.com/"
                 >
-                  Dentures Bank
+                 Canaan Dance
                 </a>
               </h2>
               <p>

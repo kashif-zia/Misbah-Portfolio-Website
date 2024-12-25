@@ -30,8 +30,8 @@ const Resume = () => {
 										</div>
 										<div className='content'>
 											<span className='years'>Nov 2021 - Present</span>
-											<h4>Lead Full Stack Engineer</h4>
-											<span className='company'>IDENBRID INC.</span>
+											<h4>Wordpress Developer</h4>
+											<span className='company'>Novapex IT solution</span>
 										</div>
 									</div>
 								</div>
@@ -43,7 +43,7 @@ const Resume = () => {
 										<div className='content'>
 											<span className='years'>Apr 2020 - Sep 2021</span>
 											<h4>MERN Stack Engineer</h4>
-											<span className='company'>Alpha Rages</span>
+											<span className='company'>Eastlogic IT Solutions</span>
 										</div>
 									</div>
 								</div>
@@ -53,9 +53,9 @@ const Resume = () => {
 											<i className='far fa-arrow-right' />
 										</div>
 										<div className='content'>
-											<span className='years'>Nov 2019 - Apr 2020</span>
-											<h4>Web Developer</h4>
-											<span className='company'>Salsoft Technologies</span>
+											<span className='years'>Nov 2019 - March 2020</span>
+											<h4>Digital Marketing</h4>
+											<span className='company'>Innova Network</span>
 										</div>
 									</div>
 								</div>

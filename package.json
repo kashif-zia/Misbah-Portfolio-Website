@@ -1,12 +1,12 @@
 {
-  "name": "noxfolio",
+  "name": "misbahkashifportfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://misbahkashif.eastlogic.com/",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "isotope-layout": "^3.0.6",
@@ -19,4 +19,5 @@
     "react-visibility-sensor": "^5.1.1",
     "wowjs": "^1.1.3"
   }
+  
 }
